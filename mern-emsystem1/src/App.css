@@ -1,0 +1,280 @@
+
+.App {
+  text-align: center;
+  display: contents;
+  width: 1440px;
+  height: auto;
+
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color:black;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: auto;
+  height: 20px;
+}
+
+.header img {
+  height: 30px;
+  width: 60px;
+}
+
+.header input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  height: 10px;
+  margin-left: 40px;
+  
+}
+
+.header input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+.header button {
+  background-color: #27ac4f;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-left: 50px;
+  cursor: pointer;
+  height: 25px;
+  text-align: center;
+}
+
+.header button:hover {
+  background-color: #27ac4f;
+}
+
+
+
+.header link {
+  color: white;
+}
+
+
+.footer {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 500px;
+  height: 150px;
+  width: auto;
+}
+
+.container {
+  margin-top: 5px;
+  padding: 0px;
+}
+
+.footer p {
+  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 900px;
+  text-align: center;
+}
+
+.footer span {
+  color: #007bff;
+}
+
+.footer img {
+
+  margin-right: 15000px;
+  width: 60px;
+  height: 30px;
+}
+
+
+.auctions {
+  display: contents;
+  width: 1440px;
+  
+}
+
+
+
+
+
+
+
+.signin {
+  display: contents;
+}
+
+
+.signincontainer{
+border: 1px solid #ccc;
+padding: 10px;
+background-color: rgb(223, 222, 222);
+width: 400px;
+margin-left: 515px;
+margin-top: 250px;
+height: 450px;
+border-radius: 20px;
+}
+
+
+.signincontainer label{
+  width: 200px;
+  display: inline-block;
+  text-align: left;
+}
+
+.CA1 {
+  display: contents;
+}
+
+.CA1container {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 0px;
+  margin-top: 90px;
+  margin-right: 10px;
+  /*background-color: #007bff;*/
+}
+
+
+.CA1 p{
+  color: white;
+  
+
+}
+
+
+.sellacar {
+  display: contents;
+
+}
+
+.sellacarcontainer {
+  background-color:  rgb(223, 222, 222);
+  width: 500px;
+  height: 1200px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 100px;
+  border-radius: 20px;
+  
+}
+
+
+.sellacarcontainer button{
+  color: white;
+  background-color: #27ac4f;
+  border:#27ac4f;
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+}
+
+.sellacarcontainer label{
+  width: 250px;
+  display: inline-block;
+  text-align: left;
+}
+
+
+.CA1info {
+
+  display: contents;
+}
+
+
+.CA1infocontainer {
+  background-color:  rgb(223, 222, 222);
+  margin-top: 100px;
+  /*display: grid;
+  
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 0px;*/
+  width: 500px;
+  align-items: center;
+  margin-left: 500px;
+  border-radius: 20px;
+
+}
+
+.CA1infocontainer p{
+  color: black;
+}
+
+
+
+.CA1info h2{
+  color: white;
+}
+
+
+
+.CA1info table{
+  background-color: rgb(223, 222, 222);
+  border-radius: 20px;
+  width: 900px;
+  margin-left: 300px;
+  border-collapse: collapse;
+}
+
+.CA1info td{
+  height: 50px;
+}
+
+.CA1info th,td {
+  border: 1px solid black;
+}
+
+
+
+.register {
+  display: contents;
+}
+
+.registercontainer {
+  background-color: rgb(223, 222, 222);
+  border-radius: 20px;;
+  margin-left: 500px;
+  margin-top: 200px;
+  width: 500px;
+  height: 300px;
+}
+
+.registercontainer label{
+  width: 200px;
+  display: inline-block;
+  text-align: left;
+}
+
+
+.login {
+  display: contents;
+}
+
+.logincontainer {
+  background-color: rgb(223, 222, 222);
+  width:400px;
+  height: 500px;
+
+
+}
+
+
+.logincontainer label{
+  width: 200px;
+  display: inline-block;
+  text-align: left;
+}
+
