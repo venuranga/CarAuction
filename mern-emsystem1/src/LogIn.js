@@ -64,6 +64,8 @@ const URL = "http://localhost:9000/api/users/auth";
 
       <div className="logincontainer">
         <form onSubmit={handleSubmit}>
+          <br />
+          <br />
           <label htmlFor="email">Email:</label>
           <input
             type="email"
@@ -72,7 +74,8 @@ const URL = "http://localhost:9000/api/users/auth";
             onChange={(event) => setEmail(event.target.value)}
             required
           />
-
+          <br />
+          <br />
           <label htmlFor="password">Password:</label>
           <input
             type="password"
@@ -81,7 +84,8 @@ const URL = "http://localhost:9000/api/users/auth";
             onChange={(event) => setPassword(event.target.value)}
             required
           />
-
+          <br />
+          <br />
           <div className="remember-me">
             <input
               type="checkbox"
@@ -89,9 +93,10 @@ const URL = "http://localhost:9000/api/users/auth";
               checked={rememberMe}
               onChange={(event) => setRememberMe(event.target.checked)}
             />
-            <label htmlFor="remember-me">Remember me</label>
+            <label style = {{textAlign: "center"}} htmlFor="remember-me">Remember me</label>
           </div>
-
+          <br />
+          <br />
           <button type="submit">Login</button>
         </form>
       </div>
